@@ -1,0 +1,58 @@
+<!Doctype Html>  
+  <Html>     
+    <Head>      
+      <Title>WebPage</Title>  
+	<script src = "/Web/javascript/BMI.js">
+      </script>
+    </Head>
+  
+   <Body>   
+       <br>   
+      <form>  
+    		Name:  
+   		<input type="text" name="Name" size="20">  
+   		<br> <br>   
+      </form>  
+    Gender:
+    		Male
+    			<input type="radio" checked=true name="user_gender">
+    		Female
+    			<input type="radio"  name="user_gender"> 
+    		<br><br>
+    Age:
+   		<input type="number" name="age" min="1" max="100">
+  <br> <br>
+  <form>  
+  	Address:  
+  		<input type="text" name="Address" size="50">  
+  <br> <br> 
+  
+  Hobbies: <br>    
+              <label> <input type="checkbox"> Cricket</label>
+              <label> <input type="checkbox"> Singing</label>    
+              <label> <input type="checkbox"> Reading Novels</label>  
+              <label> <input type="checkbox"> vedio games </label>   
+              <br><br>
+
+   <div class="container">  
+        <h1>BMI Calculator</h1>
+        <label>
+            <input id="h-input" type="number" placeholder="Enter Your Height in Centimeters: ">
+        </label>        
+        <label>
+            <input id="w-input" type="number" placeholder="Enter Your Weight in Kilogrames: ">
+        </label>            
+        <button type="submit" onclick="Calculate()">Calculate BMI</button>
+            
+        <div class="bmi-value">
+            <h4>BMI Value: </h4>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="status">
+            <h4>Status: </h4>
+            <div id="bmi-status"></div>
+        </div>   
+    </div>
+
+</Body>   
+</Html>  
