@@ -1,7 +1,7 @@
 # DDOS-SOLUTIONS-Python-Internship
 During the Internship I worked through the following project.
 
-##  Design a webpage which has following controls
+##  Designing a webpage which has following controls
 
 1.	Name (textbox)
 2.	Gender(Radio button)
